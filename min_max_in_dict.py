@@ -1,6 +1,15 @@
 ''' This program is to find minimum and maximum value in dictionary'''
-marks={"liya":95,"sakthi":75,"nisha":80}
-lis = list(marks.values())
+marks= {
+    "raghul":{
+        "mark":80,
+        "class":"12"
+    },
+     "shakthi":{
+        "mark":90,
+        "class":"12"
+    }
+}
+lis = list(marks[list(marks.keys())].values())
 large = lis[0]
 small = lis[0]
 for i in lis:
@@ -8,6 +17,3 @@ for i in lis:
         large = i
     if i < small:
         small = i
-
-print("Largest mark:", large)
-print("Smallest mark:", small)

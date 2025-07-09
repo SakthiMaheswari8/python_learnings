@@ -2,4 +2,5 @@
 list_1=[4,9,2,7,6,1,5,3]
 for i in sorted([0,4,5],reverse=True):
     list_1.pop(i)
+    list_1.append(23)
 print(list_1)
