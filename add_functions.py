@@ -1,4 +1,0 @@
-'''eg for function '''
-
-
-
