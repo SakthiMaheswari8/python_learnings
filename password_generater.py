@@ -4,8 +4,8 @@ import random
 length = int(input("Enter password length: "))
 print('''Choose character set for password from these : 
          1. letters
-         2.lowercase letter
-         3.uppercase letters
+         2. lowercase letter
+         3. uppercase letters
          4. digits
          5. Special characters
          6. Exit''')

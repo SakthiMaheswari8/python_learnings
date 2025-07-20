@@ -1,4 +1,4 @@
-'''find list is empty or not usinf function '''
+'''find list is empty or not using function '''
 def empty(*a):
     if len(a)==0:
         print("the list is empty")

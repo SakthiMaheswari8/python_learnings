@@ -10,7 +10,6 @@ def pangram():
 a=input("Enter the sentence to find whether the given is pangram or not:\n")
 print(pangram())
 
-
     
     
     
