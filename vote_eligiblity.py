@@ -1,4 +1,5 @@
-''' '''
+'''This script defines a Vote class that takes user input for name and age,
+and checks whether the person is eligible to vote. '''
 class vote:
     def __init__(self):
         self.name=" "
