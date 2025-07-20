@@ -1,4 +1,4 @@
-''' '''
+'''This program is to find whether thr given string is pangram or not using while loop '''
 import string
 
 def pangram():
