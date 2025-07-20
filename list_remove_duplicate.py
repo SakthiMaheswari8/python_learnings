@@ -1,4 +1,4 @@
-''' '''
+'''This program is remove duplicate from list '''
 a=[1,7,9,1]
 b=[]
 for i in a:
