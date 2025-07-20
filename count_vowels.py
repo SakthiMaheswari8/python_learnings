@@ -1,4 +1,5 @@
-''' '''         
+'''This script defines a function to count the number of vowels in a user-input string.
+It converts the string to lowercase and checks for vowels (a, e, i, o, u). '''         
 def vowels():
     b = input("Enter a string: ")
     b = b.lower()   
